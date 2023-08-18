@@ -1,0 +1,21 @@
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-weight: 400;
+    line-height: 1.7;
+    padding: 3rem;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
