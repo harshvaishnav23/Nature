@@ -8,4 +8,19 @@
     // transform: translateY(-20rem);
     // position: relative;
     // z-index: -1; 
-}       
+}   
+
+.section-feature{
+    padding: 20rem 0;
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light, .8), rgba($color-primary-dark, .8)), url(../images/nat-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    transform: skewY(-7deg);
+    margin-top: -10rem;
+
+    > *{
+        transform: skewY(7deg);
+    }
+}     
