@@ -14,15 +14,16 @@
 @import "./components/buttons";
 @import "./components/form";
 @import "./components/composition";
-@import "./components/feature-card";
-
-@import "./pages/about";
-@import "./pages/blogs";
-@import "./pages/contact";
+@import "./components/feature-card"; 
+@import "./components/card";
+ 
+@import "./pages/about";     
+@import "./pages/blogs";    
+@import "./pages/contact";   
 @import "./pages/home";
 @import "./pages/services";
 
 @import "./layouts/grid";
 @import "./layouts/header";
 @import "./layouts/footer";
-@import "./layouts/navigation";               
+@import "./layouts/navigation";                
