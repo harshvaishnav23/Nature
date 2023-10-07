@@ -9,7 +9,19 @@
 
 
 html{
-    font-size: 10px;
+    font-size: 62.5%; // >> 10px > 1rem
+
+    @include response(tabPort){
+        font-size: 56%;
+    }
+
+    @include response(tabLand){
+        font-size: 56%;
+    }
+
+    @include response(phone){
+        font-size: 50%; 
+    }
 }
 
 ::selection{
@@ -24,4 +36,8 @@ body{
     font-family: 'Asap', sans-serif;
     font-family: 'Lato', sans-serif;
     color: $color-grey-dark;
+
+    @include response(phone){
+        padding: 0; 
+    }
 }

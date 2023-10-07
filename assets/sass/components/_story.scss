@@ -54,4 +54,17 @@
         transform: translate(-50%, -50%);
         opacity: 1;
     }
+
+    @include response(tabLand){
+
+        width: 90%;
+        padding: 3rem 2rem;
+        transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+
+    > *{
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+    }
+    }
 }

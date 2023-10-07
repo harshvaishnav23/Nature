@@ -20,6 +20,12 @@
             font-weight: 400;
             letter-spacing: 3.3rem;
             animation: moveInLeft 1s ease-in-out ;
+        
+                @include response(phone){
+                    font-size: 4rem;
+                    letter-spacing: 2rem;
+                } 
+        
         }
         &-sub{
             display: block;
